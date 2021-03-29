@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+  .wrapper {
+    display: inline-grid;
+    grid-auto-flow: row;
+    grid-gap: 20px;
+    padding: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .options {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 10px;
+    justify-content: flex-start;
+  }
+
+  .tile {
+    width: 30px;
+    height: 30px;
+    border: 0px;
+  }
+
+  .color-picker-tile {
+    width: 30px;
+    height: 30px;
+    margin: 1%;
+    border: none;
+  }
+
+  .game-table{
+      display: block;
+  }
+
+  .included{
+      border: 2px solid black;
+  }
+
+  .btn{
+      margin-top: 5px;
+      padding: 1%;
+      margin-left: 1%;
+  }
